@@ -193,12 +193,48 @@ footer p {
 
 @media only screen and (max-width: 470px) {
 
+	#intro {	
+		height: 15rem;
+	}
+
+	#intro-text {
+		position: relative;
+		top: 10rem;
+		height: 5rem;
+		width: 100%;
+	}
+
+	#intro-text p {
+		font-size: .77rem;
+	}
+
+	#intro-text h1 {
+		font-size: 1rem;
+	}
+
+	#products {
+		width: 470px;
+	}
+
 	.products {
 		justify-content: center;
 		width: 90%;
 	}
 
+	#info {
+		width: 470px;
+		flex-wrap: wrap;
+	}
+
 	.info-box {
 		width: 90%;
+	}
+
+	#hours {
+		padding-top: 0.5rem;
+	}
+
+	footer {
+		text-align: center;
 	}
 }
